@@ -1,28 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is being completed as part of [The Odin Project](www.theodinproject.com).
 
-Things you may want to cover:
+Purpose
+=======
 
-* Ruby version
+The purpose of this assignment is to practice creating an authentication system 
+from scratch. Students are expected to build a 'members only' application that 
+allows users to make posts that can only be authenticated site users.
 
-* System dependencies
+For more information, go to [this project's page](http://www.theodinproject.com/ruby-on-rails/authentication?ref=lnav)
 
-* Configuration
+Contact
+=======
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+To contact me, email patmallee@gmail.com.
