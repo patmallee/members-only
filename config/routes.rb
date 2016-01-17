@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   # root 'welcome#index'
     root 'sessions#new'
     
-    resources :user
+    resources :users
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -16,6 +16,7 @@ Rails.application.routes.draw do
 
     get 'login' => 'sessions#new'
     post 'login' => 'sessions#create'
+    delete 'logout' => 'sessions#destroy'
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
