@@ -20,6 +20,7 @@ module SessionsHelper
   
   def log_out
     if logged_in?
+      @current_user = nil
       session[:user_id] = nil
       cookies.permanent[:remember_token] = nil
       flash[:alert] = "Log out successful"

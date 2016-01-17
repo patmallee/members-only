@@ -8,7 +8,8 @@
 </head>
 <body>
   <div>
-    <%= flash.each do |message_type, message| %>
+    <% flash.each do |message_type, message| %>
+      <p><%= message_type %> --- <%= message %></p>
     <% end %>
   </div>
   <nav>
